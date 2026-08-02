@@ -1,7 +1,15 @@
 aid: wellxai
 name: Wellxai
-description: Wellxai is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Wellx (Wellxai) is a Dubai-based health insurtech company that transforms health insurance
+  from reactive to proactive through AI-driven behavior change. Its consumer mobile app pairs
+  behavioral science and gamification with wearable integrations (Fitbit, Apple Watch, Whoop)
+  so members earn xCoins rewards by hitting health goals, step and sleep challenges, and
+  wellness programs, then redeem them with marketplace partners. Wellx also sells to corporates
+  and SMEs and partners with brokers and insurers, positioning healthier behavior as the driver
+  of better-value health insurance. Surfaced as a 500 Global portfolio company and profiled in
+  the API Evangelist network; the company exposes consumer iOS/Android apps backed by a private
+  API but publishes no public developer API, SDK, or documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/wellxai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,33 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://framerusercontent.com/images/NcWUfVUXckxdteUqQIe3Qv1QE.png
 tags:
 - Company
+- Health
+- Insurance
+- Insurtech
+- Digital Health
+- Wellness
+- Behavior Change
+- Rewards
+- Wearables
+- Mobile
+- UAE
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/wellxai-domain-security.yml
 - type: Website
   url: https://wellxai.com
+- type: About
+  url: https://wellxai.com/about
+- type: Blog
+  url: https://wellxai.com/articles
+- type: PrivacyPolicy
+  url: https://wellxai.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://wellxai.com/legal/terms-conditions
+- type: Support
+  url: mailto:hello@wellxai.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/wellxai
+- type: iOS App
+  url: https://apps.apple.com/ae/app/wellx-ai/id1640492711
+- type: Android App
+  url: https://play.google.com/store/apps/details?id=com.wellx
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
